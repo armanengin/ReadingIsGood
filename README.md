@@ -1,5 +1,5 @@
 # ReadingIsGood
-ReadingIsGood is a basic library system with a feature of ordering statistics for every customer. Customers can get their ordering datas for a time period that they want to know.
+ReadingIsGood is a basic library system with a feature of statistics for every customer's orders. Customers can get their ordering datas for a time period that they want to know.
 
 # Project Description
 Backend of a basic Library Management System called ReadingIsGood.
