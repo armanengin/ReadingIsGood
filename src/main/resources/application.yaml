@@ -4,7 +4,7 @@ cloud:
       static: us-east-2
       auto: false
     credentials:
-      access-key: AKIATGJWI6FNUFNPJTKW
-      secret-key: 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
+      access-key: ****
+      secret-key: ****
     end-point:
       uri: https://sqs.us-east-2.amazonaws.com/219694035291/ReadingIsGood-sqs.fifo
