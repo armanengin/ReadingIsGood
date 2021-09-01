@@ -18,3 +18,13 @@ Backend of a basic Library Management System called ReadingIsGood.
 ## User Interface(Just Security)
 ![Ekran Resmi 2021-08-26 09 34 55](https://user-images.githubusercontent.com/63503839/130913214-49ab18cd-23a7-41b8-8076-22be9a509e9e.png)
 ![Ekran Resmi 2021-08-26 09 34 37](https://user-images.githubusercontent.com/63503839/130913252-248389c2-16a1-417b-a9f6-414370e40332.png)
+
+## Installation
+To run the app using docker:
+1) mvn clean install
+2) move jar from target to publish/app
+3) build the docker image from publish folder using:
+docker build -t getir/reading-is-good .
+
+To run the docker container you can use the following command:
+docker run -p 9090:8080 getir/reading-is-good
