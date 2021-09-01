@@ -9,11 +9,12 @@
 </head>
 
 <body style="background-color:#ededed;">
-<div style="background-color:#337ab7;height:50px;"></div>
+<div style="background-color:#d4a97b;height:50px;"></div>
 <div class="container-fluid">
-    <div class="row col-lg-4 col-lg-offset-4" style="margin-top: 80px;background-color:#fff;padding:20px;border:solid 1px #ddd;">
+    <div class="row col-lg-4 col-lg-offset-4" style="margin-top: 80px;background-color:#f5e5b8;padding:20px;border:solid 1px #ddd;">
         <!-- <img th:src="@{/images/login.jpg}" class="img-responsive center-block" width="300" height="300" alt="Logo" /> -->
         <form th:action="@{/login}" method="POST" class="form-signin">
+            <h2 class="main-heading" th:text="ReadingIsGood"></h2>
             <h3 class="form-signin-heading" th:text="Login"></h3>
             <br />  <input type="text" id="email" name="email" th:placeholder="Email" class="form-control" /> <br /> <input type="password" th:placeholder="Password" id="password" name="password" class="form-control" /> <br />
 

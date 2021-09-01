@@ -10,11 +10,12 @@
     <link rel="stylesheet" type="text/css" th:href="@{CSS/security-layout.css}">
 </head>
 <body style="background-color: #ededed;">
-<div style="background-color: #337ab7; height: 50px;"></div>
+<div style="background-color: #d4a97b; height: 50px;"></div>
 <div class="container-fluid" style="margin-top: 30px;">
 
-    <div class="row col-lg-4 col-lg-offset-4" style="margin-top: 40px; background-color: #fff; padding: 20px; border: solid 1px #ddd;">
+    <div class="row col-lg-4 col-lg-offset-4" style="margin-top: 40px; background-color: #f5e5b8; padding: 20px; border: solid 1px #ddd;">
         <form autocomplete="off" action="#" th:action="@{/register}" th:object="${customer}" method="post" class="form-signin" role="form">
+            <h2 class="main-heading" th:text="ReadingIsGood"></h2>
             <h3 class="form-signin-heading">Registration Form</h3>
             <div class="form-group">
                 <div class="">
