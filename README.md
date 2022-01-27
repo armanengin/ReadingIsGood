@@ -24,7 +24,7 @@ To run the app using docker:
 1) mvn clean install
 2) move jar from target to publish/app
 3) build the docker image from publish folder using:
-docker build -t getir/reading-is-good .
+docker build -t arman/reading-is-good .
 
 To run the docker container you can use the following command:
-docker run -p 9090:8080 getir/reading-is-good
+docker run -p 9090:8080 arman/reading-is-good
