@@ -1,8 +1,8 @@
-package com.getir.reading.sgood.service;
+package com.arman.reading.sgood.service;
 
-import com.getir.reading.sgood.model.Book;
-import com.getir.reading.sgood.model.Order;
-import com.getir.reading.sgood.model.OrderDetail;
+import com.arman.reading.sgood.model.Book;
+import com.arman.reading.sgood.model.Order;
+import com.arman.reading.sgood.model.OrderDetail;
 
 import java.util.Date;
 import java.util.List;

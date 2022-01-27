@@ -1,8 +1,8 @@
-package com.getir.reading.sgood.service.impl;
+armanpackage com.arman.reading.sgood.service.impl;
 
-import com.getir.reading.sgood.model.OrderDetail;
-import com.getir.reading.sgood.repository.OrderDetailRepo;
-import com.getir.reading.sgood.service.OrderDetailService;
+import com.arman.reading.sgood.model.OrderDetail;
+import com.arman.reading.sgood.repository.OrderDetailRepo;
+import com.arman.reading.sgood.service.OrderDetailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

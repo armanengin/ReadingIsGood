@@ -1,14 +1,14 @@
-package com.getir.reading.sgood.service.impl;
+armanpackage com.arman.reading.sgood.service.impl;
 
-import com.getir.reading.sgood.exception.StockIsNegativeException;
-import com.getir.reading.sgood.model.Book;
-import com.getir.reading.sgood.model.Order;
-import com.getir.reading.sgood.model.OrderDetail;
-import com.getir.reading.sgood.repository.OrderDetailRepo;
-import com.getir.reading.sgood.repository.OrderRepo;
-import com.getir.reading.sgood.service.OrderDetailService;
-import com.getir.reading.sgood.service.OrderService;
-import com.getir.reading.sgood.service.SQSService;
+import com.arman.reading.sgood.exception.StockIsNegativeException;
+import com.arman.reading.sgood.model.Book;
+import com.arman.reading.sgood.model.Order;
+import com.arman.reading.sgood.model.OrderDetail;
+import com.arman.reading.sgood.repository.OrderDetailRepo;
+import com.arman.reading.sgood.repository.OrderRepo;
+import com.arman.reading.sgood.service.OrderDetailService;
+import com.arman.reading.sgood.service.OrderService;
+import com.arman.reading.sgood.service.SQSService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

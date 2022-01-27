@@ -1,8 +1,8 @@
-package com.getir.reading.sgood.service.impl;
+armanpackage com.arman.reading.sgood.service.impl;
 
-import com.getir.reading.sgood.model.Order;
-import com.getir.reading.sgood.service.OrderService;
-import com.getir.reading.sgood.service.SQSService;
+import com.arman.reading.sgood.model.Order;
+import com.arman.reading.sgood.service.OrderService;
+import com.arman.reading.sgood.service.SQSService;
 import io.awspring.cloud.messaging.core.QueueMessagingTemplate;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

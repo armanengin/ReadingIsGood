@@ -1,8 +1,8 @@
-package com.getir.reading.sgood.exception.handler;
+package com.arman.reading.sgood.exception.handler;
 
-import com.getir.reading.sgood.exception.EntityNotFoundException;
-import com.getir.reading.sgood.exception.ErrorDetail;
-import com.getir.reading.sgood.exception.StockIsNegativeException;
+import com.arman.reading.sgood.exception.EntityNotFoundException;
+import com.arman.reading.sgood.exception.ErrorDetail;
+import com.arman.reading.sgood.exception.StockIsNegativeException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;

@@ -1,8 +1,8 @@
-package com.getir.reading.sgood.controller;
+package com.arman.reading.sgood.controller;
 
-import com.getir.reading.sgood.model.Customer;
-import com.getir.reading.sgood.service.CustomerService;
-import com.getir.reading.sgood.service.StatisticsService;
+import com.arman.reading.sgood.model.Customer;
+import com.arman.reading.sgood.service.CustomerService;
+import com.arman.reading.sgood.service.StatisticsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.bind.annotation.PathVariable;

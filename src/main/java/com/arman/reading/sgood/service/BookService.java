@@ -1,6 +1,6 @@
-package com.getir.reading.sgood.service;
+package com.arman.reading.sgood.service;
 
-import com.getir.reading.sgood.model.Book;
+import com.arman.reading.sgood.model.Book;
 
 import java.util.List;
 import java.util.Optional;

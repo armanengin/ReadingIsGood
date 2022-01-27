@@ -1,8 +1,8 @@
-package com.getir.reading.sgood.controller;
+package com.arman.reading.sgood.controller;
 
-import com.getir.reading.sgood.model.Order;
-import com.getir.reading.sgood.service.OrderService;
-import com.getir.reading.sgood.service.SQSService;
+import com.arman.reading.sgood.model.Order;
+import com.arman.reading.sgood.service.OrderService;
+import com.arman.reading.sgood.service.SQSService;
 import io.awspring.cloud.messaging.listener.annotation.SqsListener;
 import lombok.RequiredArgsConstructor;
 import org.springframework.scheduling.annotation.Scheduled;

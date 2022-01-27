@@ -1,8 +1,8 @@
-package com.getir.reading.sgood.service;
+armanpackage com.arman.reading.sgood.service;
 
 
 import com.amazonaws.services.sqs.model.SendMessageResult;
-import com.getir.reading.sgood.model.Order;
+import com.arman.reading.sgood.model.Order;
 
 public interface SQSService {
     void sendSqsMessage(Order order);

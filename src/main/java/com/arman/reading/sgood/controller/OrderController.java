@@ -1,12 +1,12 @@
-package com.getir.reading.sgood.controller;
+package com.arman.reading.sgood.controller;
 
-import com.getir.reading.sgood.exception.EntityNotFoundException;
-import com.getir.reading.sgood.model.Book;
-import com.getir.reading.sgood.model.OrderDetail;
-import com.getir.reading.sgood.model.Order;
-import com.getir.reading.sgood.service.BookService;
-import com.getir.reading.sgood.service.OrderDetailService;
-import com.getir.reading.sgood.service.OrderService;
+import com.arman.reading.sgood.exception.EntityNotFoundException;
+import com.arman.reading.sgood.model.Book;
+import com.arman.reading.sgood.model.OrderDetail;
+import com.arman.reading.sgood.model.Order;
+import com.arman.reading.sgood.service.BookService;
+import com.arman.reading.sgood.service.OrderDetailService;
+import com.arman.reading.sgood.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.HttpStatus;

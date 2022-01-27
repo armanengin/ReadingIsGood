@@ -1,10 +1,10 @@
-package com.getir.reading.sgood.service.impl;
+package com.arman.reading.sgood.service.impl;
 
-import com.getir.reading.sgood.model.Customer;
-import com.getir.reading.sgood.model.Order;
-import com.getir.reading.sgood.repository.CustomerRepo;
-import com.getir.reading.sgood.repository.OrderDetailRepo;
-import com.getir.reading.sgood.service.CustomerService;
+import com.arman.reading.sgood.model.Customer;
+import com.arman.reading.sgood.model.Order;
+import com.arman.reading.sgood.repository.CustomerRepo;
+import com.arman.reading.sgood.repository.OrderDetailRepo;
+import com.arman.reading.sgood.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;

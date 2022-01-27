@@ -1,4 +1,4 @@
-package com.getir.reading.sgood.exception;
+package com.arman.reading.sgood.exception;
 
 public class StockIsNegativeException extends RuntimeException{
     public StockIsNegativeException(String message){

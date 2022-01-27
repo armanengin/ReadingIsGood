@@ -1,6 +1,6 @@
-package com.getir.reading.sgood.configuration;
+package com.arman.reading.sgood.configuration;
 
-import com.getir.reading.sgood.CustomLoginSuccessHandler;
+import com.arman.reading.sgood.CustomLoginSuccessHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;

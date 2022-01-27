@@ -1,9 +1,9 @@
-package com.getir.reading.sgood.service.impl;
+armanpackage com.arman.reading.sgood.service.impl;
 
 
-import com.getir.reading.sgood.model.Book;
-import com.getir.reading.sgood.repository.BookRepo;
-import com.getir.reading.sgood.service.BookService;
+import com.arman.reading.sgood.model.Book;
+import com.arman.reading.sgood.repository.BookRepo;
+import com.arman.reading.sgood.service.BookService;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 

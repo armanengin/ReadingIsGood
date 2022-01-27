@@ -1,8 +1,8 @@
-package com.getir.reading.sgood.controller;
+package com.arman.reading.sgood.controller;
 
-import com.getir.reading.sgood.model.Customer;
-import com.getir.reading.sgood.model.Order;
-import com.getir.reading.sgood.service.CustomerService;
+import com.arman.reading.sgood.model.Customer;
+import com.arman.reading.sgood.model.Order;
+import com.arman.reading.sgood.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

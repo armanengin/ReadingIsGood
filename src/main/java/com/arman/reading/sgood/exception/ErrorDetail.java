@@ -1,4 +1,4 @@
-package com.getir.reading.sgood.exception;
+package com.arman.reading.sgood.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
